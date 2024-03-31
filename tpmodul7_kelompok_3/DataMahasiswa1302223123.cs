@@ -18,7 +18,7 @@ public class DataMahasiswa1302223123
     {
         string json = File.ReadAllText("tp7_1_1302223123.json");
 
-        var dataMahasiswa = JsonSerializer.Deserialize<DataMahasiswa1302223099>(json);
+        var dataMahasiswa = JsonSerializer.Deserialize<DataMahasiswa1302223123>(json);
 
         if (dataMahasiswa.nama != null)
         {
