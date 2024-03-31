@@ -2,6 +2,8 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        DataMahasiswa1302223099 data = new DataMahasiswa1302223099();
+
+        data.ReadJSON();
     }
 }
