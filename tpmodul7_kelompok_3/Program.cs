@@ -6,10 +6,10 @@ namespace tpmodul7_kelompok_3
     {
         static void Main(string[] args)
         {
-            var dataMahasiswa = new DataMahasiswa1302223038();
+            var dataMahasiswa = new DataMahasiswa1302220005();
             dataMahasiswa.ReadJSON();
 
-            var kuliahMahasiswa = new KuliahMahasiswa1302223038();
+            var kuliahMahasiswa = new KuliahMahasiswa1302220005();
             kuliahMahasiswa.ReadJSON();
 
             Console.ReadLine(); 
